@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(111, 154, 141);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid whitesmoke;
+  position: fixed;
+}
+
+.navbar h2 {
+  color: rgb(234, 94, 94);
+  margin-left: 100px;
+}
+
+.navbar a {
+  color: whitesmoke;
+  transition: 0.5s;
+}
+.navbar li a:hover{
+  color: rgb(234, 94, 94);
+  
+  
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.header {
+  background-image: url(./2-1\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+  color: whitesmoke;
+}
+.header h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: rgb(234, 94, 94);
+  margin-top: 200px;
+}
+.header p{
+  font-size: larger;
+  line-height: 25px;
+  margin: 0px 70px 30px 70px;
+}
+.header button{
+  padding: 15px 50px;
+  color: whitesmoke;
+  background-color:  rgb(234, 94, 94);
+  border: none;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: bold;
+}
+.header button:hover{
+  background-color: white;
+  color: rgb(234, 94, 94);
+  border: 1px solid rgb(234, 94, 94);
+}
+
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 100px 3%;
+}
+
+.child {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  min-height: 45vh;
+  min-width: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 1s;
+  transition-delay: 500ms;
+}
+
+.child h1 {
+  color: rgb(234, 94, 94);
+}
+
+
+
+.coumn-span-2 {
+  grid-column: span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.child-1 {
+  background-image: url(./2-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-1:hover{
+  transform: scalex(0.7);
+}
+.child-2 {
+  background-image: url(./1-1\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-2:hover{
+  transform:translateY(50px)
+}
+
+.child-3 {
+  background-image: url(./1-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-3:hover{
+  transform: scaleY(0.7);
+}
+
+.child-4 {
+  background-image: url(./1-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-4:hover{
+  transform:translatex(50px)
+}
+
+.child-5 {
+  background-image: url(./2-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-5:hover{
+  transform: rotate(30deg);
+}
+
+.child-6 {
+  background-image: url(./1-1\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-6:hover{
+  transform:scale(0.7)
+}
+
+.child-7 {
+  background-image: url(./2-1\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-7:hover{
+  transform: scaleY(0.7);
+}
+
+.child-8 {
+  background-image: url(./1-1\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-8:hover{
+transform: skewX(20deg);
+}
+
+.child-9 {
+  background-image: url(./1-1.jpg);
+  background-size: cover;
+  background-position: center;
+}.child-9:hover{
+  transform: rotate(30deg);
+}
+
+.child-10 {
+  background-image: url(./1-1\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-10:hover{
+  transform: skewy(20deg);
+  }
+
+.child-11 {
+  background-image: url(./1-1\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+}.child-11:hover{
+  transform: skew(20deg);
+}
+
+.child-12 {
+  background-image: url(./1-1\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-12:hover{
+  transform: scale(.75);
+}
+
+.child-13 {
+  background-image: url(./2-1\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.child-13:hover{
+  transform: scalex(0.7);
+}
+
+.footer-div{
+  background-color: rgb(111, 154, 141);
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  vertical-align: bottom;
+  color: whitesmoke;
+  padding-top: 30px
+}
+.footer-div h3{
+  margin-bottom: 12px;
+  color: rgb(234, 94, 94);
+}
+.footer-div a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer-div li{
+  line-height: 20px;
+}
